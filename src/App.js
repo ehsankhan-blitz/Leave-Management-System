@@ -1,8 +1,8 @@
 import React from 'react';
 import { Route, Router, Routes } from 'react-router-dom';
-import Login from './pages/Login';
-import Home from './pages/Home';
-import Calendar from './pages/Calendar';
+import Login from './shared/pages/Login';
+import Home from './shared/pages/Home';
+import Calendar from './shared/pages/Calendar';
 
 function App() {
   return (
